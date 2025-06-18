@@ -6,22 +6,14 @@ public class HomeWork_2 {
         // Task 1
         /* Написать программу для вывода названия поры года по номеру
         месяца. При решении используйте оператор switch-case.*/
-         /*int season = scanner.nextInt();
+         int season = scanner.nextInt();
          switch (season){
-             case 1  -> System.out.println("Зима");
-             case 2  -> System.out.println("Зима");
-             case 3  -> System.out.println("Весна");
-             case 4  -> System.out.println("Весна");
-             case 5  -> System.out.println("Весна");
-             case 6  -> System.out.println("Лето");
-             case 7  -> System.out.println("Лето");
-             case 8  -> System.out.println("Лето");
-             case 9  -> System.out.println("Осень");
-             case 10 -> System.out.println("Осень");
-             case 11 -> System.out.println("Осень");
-             case 12 -> System.out.println("Зима");
+             case 1, 2, 12  -> System.out.println("Зима");
+             case 3, 4, 5  -> System.out.println("Весна");
+             case 6, 7, 8  -> System.out.println("Лето");
+             case 9, 10, 11  -> System.out.println("Осень");
              default -> System.out.println("Unknown");
-         }*/
+         }
 
         // Task 2
         /* Написать программу для вывода названия поры года по номеру
