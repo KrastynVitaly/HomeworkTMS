@@ -1,4 +1,4 @@
-package Homework6;
+package Homework6.CreditCard;
 
 import java.util.Scanner;
 
@@ -37,9 +37,24 @@ public class Main {
                 break;
             }
             case 2: {
-                System.out.println("Введите номер карты");
-                System.out.println("Введите имя карты");
-                System.out.println("ведите сумму первоначального баланса");
+                System.out.println("Введите колличество карт:");
+                int countOfCards = scanner.nextInt();
+                String[][] array = new String[countOfCards][3];
+                for (int i = 0; i < countOfCards; i++) {
+                    System.out.println("Введите имя карты");
+                    array[i][0] = scanner.next();
+                    System.out.println("Введите номер карты");
+                    array[i][1] = scanner.next();
+                    System.out.println("Введите сумму первоначального баланса");
+                    array[i][2] = scanner.next();
+                }
+                for (int i = 0; i < countOfCards; i++) {
+                    for (int j = 0; j < array[i].length; j++) {
+                        System.out.print(array[i][j] + " ");
+                    }
+                    System.out.println();
+                }
+                break;
 
             }
             default:

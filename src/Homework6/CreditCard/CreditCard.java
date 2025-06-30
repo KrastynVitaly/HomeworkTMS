@@ -1,4 +1,4 @@
-package Homework6;
+package Homework6.CreditCard;
 
 public class CreditCard
 {
