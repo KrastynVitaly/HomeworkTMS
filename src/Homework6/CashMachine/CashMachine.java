@@ -24,15 +24,15 @@ public class CashMachine {
         balance = balance + depositAmount;
         System.out.println("Ваши деньги успешно внесены");
     }
-    void Info (){
-        System.out.println("Общая сумма в банкомате: " + balance);
-        System.out.println("Количество 20: " + countOf20);
-        System.out.println("Количество 50: " + countOf50);
-        System.out.println("Количество 100: " + countOf100);
+
+    void info() {
+        System.out.println("Общая сумма в банкомате: " + balance +
+        "Количество 20: " + countOf20 +
+        "Количество 50: " + countOf50 +
+        "Количество 100: " + countOf100);
     }
 
-    boolean CashWithdrawal (int cash){
-
+    boolean CashWithdrawal(int cash) {//TODO Доделать
         return false;
     }
 }

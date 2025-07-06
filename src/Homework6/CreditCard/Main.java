@@ -21,18 +21,18 @@ public class Main {
                 CreditCard number2 = new CreditCard("Credit card №2","9323 4356 1884 1458");
                 CreditCard number3 = new CreditCard();
 
-                number1.CurrentStatus();
-                number2.CurrentStatus();
-                number3.CurrentStatus();
+                number1.currentStatus();
+                number2.currentStatus();
+                number3.currentStatus();
 
                 System.out.println("_________________________________________________________________" + "\n" +
                         "Операции по картам:" + "\n");
-                number1.Accruals("Credit card №1", 100_000);
-                number1.CurrentStatus();
-                number2.Accruals("Credit card №2",50_000);
-                number2.CurrentStatus();
-                number3.Offs(111_000);
-                number3.CurrentStatus();
+                number1.accruals("Credit card №1", 100_000);
+                number1.currentStatus();
+                number2.accruals("Credit card №2",50_000);
+                number2.currentStatus();
+                number3.offs(111_000);
+                number3.currentStatus();
 
                 break;
             }
