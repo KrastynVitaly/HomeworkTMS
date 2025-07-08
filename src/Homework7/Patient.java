@@ -1,10 +1,27 @@
 package Homework7;
 
 public class Patient {
-    private String name;
+    private int treatmentPlan;
+    private Doctor doctor;
 
-
-    protected int treatmentPlan(inx x){
-
+    public Patient(int treatmentPlan) {
+        this.treatmentPlan = treatmentPlan;
     }
+
+    public int getTreatmentPlan() {
+        return treatmentPlan;
+    }
+
+    public void setTreatmentPlan(int treatmentPlan) {
+        this.treatmentPlan = treatmentPlan;
+    }
+
+    public Doctor getDoctor() {
+        return doctor;
+    }
+
+    public void setDoctor(Doctor doctor) {
+        this.doctor = doctor;
+    }
+
 }
