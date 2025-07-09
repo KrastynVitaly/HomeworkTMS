@@ -30,9 +30,5 @@ public class Main {
         DogSingleton dogSingleton = DogSingleton.getInstance();    //    <- Singleton
         dogSingleton.voice();
         dogSingleton.eat("Meat");
-
-        DogSingleton dogSingleton1 = DogSingleton.getInstance();
-        dogSingleton1.voice();
-        dogSingleton1.eat("Milk");
     }
 }
