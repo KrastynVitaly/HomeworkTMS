@@ -1,7 +1,8 @@
-package Homework8.Task1;
+package Homework8;
 
 public class Dog extends Animal {
     private final String food;
+    private String name;
 
     public Dog(String food) {
         this.food = food;

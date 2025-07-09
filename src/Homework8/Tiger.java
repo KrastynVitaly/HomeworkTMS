@@ -1,4 +1,4 @@
-package Homework8.Task1;
+package Homework8;
 
 public class Tiger extends Animal {
     private final String food;

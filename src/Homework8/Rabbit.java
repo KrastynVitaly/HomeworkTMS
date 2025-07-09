@@ -1,4 +1,4 @@
-package Homework8.Task1;
+package Homework8;
 
 public class Rabbit extends Animal {
     final String FOOD = "Grass";
