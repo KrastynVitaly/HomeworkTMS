@@ -35,17 +35,6 @@ private Person person;
         return id == user.id && Objects.equals(login, user.login)&& Objects.equals(person, user.person);
     }
 
-
-//    @Override
-//    public boolean equals(Object o) {
-//        if (o == null || getClass() != o.getClass()) return false;
-//        User user = (User) o;
-//        return id == user.id &&
-//                Objects.equals(login, user.login) &&
-//                Objects.equals(id, user.id) &&
-//                Objects.equals(user, user.person);
-//    }
-
     @Override
     public int hashCode() {
         final int prime = 17;
