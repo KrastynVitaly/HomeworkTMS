@@ -1,4 +1,4 @@
-package Homework_10;
+package Homework__10;
 
 /*
 Задача 1:

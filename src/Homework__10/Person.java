@@ -1,4 +1,4 @@
-package Homework_10;
+package Homework__10;
 
 public class Person {
     private String name;

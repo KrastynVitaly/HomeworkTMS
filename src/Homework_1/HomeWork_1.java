@@ -1,4 +1,4 @@
-package Homework1;
+package Homework_1;
 
 public class HomeWork_1 {
     // //Task 1
