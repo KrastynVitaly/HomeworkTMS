@@ -14,10 +14,5 @@ public class Main {
         while (matcher.find()) {
             System.out.println(matcher.group());
         }
-//        Pattern.compile("\\p{Lu}{2,6}")
-//                .matcher(input)
-//                .results() // Stream<MatchResult>
-//                .map(MatchResult::group) // Stream<String> аббревиатуры
-//                .forEach(System.out::println);
     }
 }
