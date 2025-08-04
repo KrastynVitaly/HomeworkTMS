@@ -1,7 +1,7 @@
-package HomeWork__13.Task_Star;
+package Homework__13.Task_Star;
 
-import HomeWork__13.Task_1.LoginInformation;
-import HomeWork__13.Task_1.WrongPasswordException;
+import Homework__13.Task_1.LoginInformation;
+import Homework__13.Task_1.WrongPasswordException;
 
 public class Main {
     public static void main(String[] args) throws Exception{

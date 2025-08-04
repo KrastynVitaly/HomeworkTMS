@@ -1,4 +1,4 @@
-package HomeWork__13.Task_1;
+package Homework__13.Task_1;
 
 public class LoginInformation {
     public static void dataEntry(String login, String password, String confirmPassword) throws WrongLoginException, WrongPasswordException {
