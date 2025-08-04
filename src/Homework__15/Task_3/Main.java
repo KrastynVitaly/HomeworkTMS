@@ -16,7 +16,6 @@ public class Main {
         students.get(2).setGrades("Физика",2);
         printStudent(students, 1);
         removeStudentsWhoseGradesBelow3(students);
-
     }
 
     private static void printStudent(List<Student> students, int course) {

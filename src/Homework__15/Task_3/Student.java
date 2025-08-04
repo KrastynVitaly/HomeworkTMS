@@ -65,4 +65,8 @@ public class Student {
     public void setGrades(String nameDiscipline, Integer grade) {
         grades.put(nameDiscipline, grade);
     }
+
+    public void test(){
+        System.out.println("Привет");
+    }
 }
