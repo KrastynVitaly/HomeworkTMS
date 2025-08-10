@@ -10,7 +10,7 @@ public class TaskStar {
         System.out.println("Введите путь к файлу: ");
         String filePath = scanner.nextLine();
         File input = new File(filePath);
-        File validOutput = new File("C:\\Users\\krast\\IdeaProjects\\HomeworkTMSValidFileReport.txt");
+        File validOutput = new File("C:\\Users\\krast\\IdeaProjects\\HomeworkTMS\\ValidFileReport.txt");
         File invalidOutput = new File("C:\\Users\\krast\\IdeaProjects\\HomeworkTMS\\InvalidFileReport.txt");
         try (BufferedReader reader = new BufferedReader(new FileReader(input));
              BufferedWriter validWriter = new BufferedWriter(new FileWriter(validOutput));
