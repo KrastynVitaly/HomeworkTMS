@@ -1,5 +1,6 @@
 package Homework__17.Task_5;
 
+import java.sql.SQLOutput;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
@@ -9,6 +10,7 @@ import java.util.function.Supplier;
 public class Task5 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
+        System.out.println("Введите исходную строку:");
         String input = scanner.nextLine();
         List<Character> charList = new ArrayList<>();
         for (char c : input.toCharArray()) {
@@ -21,7 +23,7 @@ public class Task5 {
                 sb.append(c);
             }
             String reversed = sb.toString();
-            return ("Перевёрнутая строка: " + reversed);
+            return ("Строка задом наперёд: " + reversed);
         };
         System.out.println(reverseString.get());
         scanner.close();
