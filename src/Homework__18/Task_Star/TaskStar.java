@@ -23,7 +23,7 @@ public class TaskStar {
         myMap.put(12, "21eman");
         myMap.put(13, ".31eman");
 
-        List<String> result = myMap.entrySet().parallelStream().
+        List<String> result = myMap.entrySet().stream().
                 filter((i) -> sequence.contains(i.getKey()) && i.getValue().length() % 2 != 0).
                 map(Map.Entry::getValue).map(name -> new StringBuilder(name).reverse().toString())
                 .toList();
