@@ -31,7 +31,7 @@ public class Task1 {
                 .distinct()
                 .filter((n) -> (n % 2) == 0)
                 .reduce(0, Integer::sum);
-        objNumArray.ifPresent(integer -> System.out.println("Сумма как Optional: " + integer));
+        objNumArray.ifPresent(optional -> System.out.println("Сумма как Optional: " + optional));
         System.out.println("Сумма как int: " + outputArray);
 
     }
