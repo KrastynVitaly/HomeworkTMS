@@ -10,6 +10,6 @@ import java.io.IOException;
 public class TMSLogoServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        getServletContext().getRequestDispatcher("/index.html").forward(req, resp);
+        getServletContext().getRequestDispatcher("/logotms.html").forward(req, resp);
     }
 }
