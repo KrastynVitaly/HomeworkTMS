@@ -1,0 +1,24 @@
+body {
+    background-color: black;
+    font-size: xxx-large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.bracket {
+    vertical-align: top;
+    horiz-align: right;
+    color: gold;
+    background-color: black;
+    font-size: 10vw;
+    font-weight: bold;
+    font-family: serif;
+}
+
+.text {
+    font-weight: normal;
+    horiz-align: left;
+    color: white;
+}
